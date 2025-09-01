@@ -16,6 +16,7 @@ function loadPostComponents() {
         subdirPrefix = 'subdir_'
     }
     loadIntoTag(pathPrefix + 'components/' + subdirPrefix + 'header.html', 'header');
+    // loadIntoTag(pathPrefix + 'components/note.html', 'note');
     loadIntoTag(pathPrefix + 'components/summary.html', 'summary');
     loadIntoClass(pathPrefix + 'components/comments.html', 'comments-wrap');
     loadIntoTag(pathPrefix + 'components/footer.html', 'footer');
