@@ -3701,3 +3701,18 @@ a.highlighted {
 div.header__logo {
   color: orange
 }
+
+.site-note {
+  color: orange;
+  display: block;
+  position: absolute;
+  text-align: center;
+  top: 90px;
+  width: 100%;
+}
+
+@media screen and (min-width:1101px) {
+  .site-note {
+    top: 15px;
+  }
+}
